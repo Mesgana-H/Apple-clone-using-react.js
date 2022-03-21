@@ -1,0 +1,501 @@
+/* General Styling*/
+body {
+	font-family: "Montserrat", sans-serif;
+	/* background-color: white !important; */
+}
+a {
+	color: #06c;
+}
+img {
+	max-width: 100%;
+}
+.blue {
+	color: #175ca9;
+}
+.red {
+	color: rgb(248, 7, 7);
+}
+.white {
+	color: #fff;
+}
+.black {
+	color: #1d1d1f;
+}
+.grey {
+	color: #86868b;
+}
+.beige {
+	color: #ececec;
+}
+.top-50 {
+	margin-top: 50px;
+}
+.top-100 {
+	margin-top: 100px;
+}
+/* #search {
+	width: 200px;
+	background-color: rgb(56, 53, 53);
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	border-radius: 15px;
+	outline: none;
+}
+input {
+	color: gray;
+} */
+/* Header Style */
+.nav-wrapper {
+	background: rgba(0, 0, 0, 0.8);
+	font-size: 0.85em;
+	font-weight: 200;
+}
+.nav-wrapper ul li a {
+	color: #fff;
+}
+.navbar-toggler {
+	color: #fff;
+}
+.nav-item {
+	text-align: left !important;
+	padding: 4px 0 4px 20px;
+	border-bottom: 1px solid #4b4b4b;
+}
+/*1St section Styling*/
+.links-wrapper ul li a:after {
+	font-family: "FontAwesome";
+	font-weight: 900;
+	content: "\f105";
+	padding-left: 10px;
+}
+.retail-info {
+	margin: 0 auto;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: 400;
+}
+.links-wrapper {
+	font-weight: 600;
+}
+
+.main-highlight-wrapper {
+	height: 480px;
+	background-color: #fafafa;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 600px auto;
+	text-align: center;
+	background-image: url("../images/home/hero_iphone_13pro_small.jpg");
+}
+.main-highlight-wrapper {
+	padding-top: 75px;
+}
+.new-p {
+	display: none;
+}
+.under_ipad-text {
+	padding-top: 260px;
+	font-size: 10px;
+	color: rgb(119, 114, 114);
+	font-weight: 500;
+}
+.under_ipad-text p {
+	margin: 0;
+	padding: 0;
+	line-height: 15px;
+}
+
+/*2nd section MacBook*/
+.second-highlight-wrapper {
+	height: 480px;
+	background-color: #fafafa;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: auto;
+	text-align: center;
+	background-image: url("../images/home/macbookair-new-sm.jpg");
+}
+.wrapper-color {
+	background-color: #fafafa;
+}
+.second-lists {
+	font-size: larger;
+	font-weight: 400;
+}
+/*3rd section iPhone*/
+.third-highlight-wrapper {
+	height: 450px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: white;
+	background-image: url("../images/home/iphone11-pro-bg.jpg");
+}
+
+/* Footer Styling */
+.forth-highlight-wrapper {
+	height: 450px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	background-image: url("../images/home/iphone11-colored.jpg");
+}
+.forth-info {
+	margin: 0 auto;
+	width: 60%;
+	font-size: 16px;
+	padding: 0 20px;
+}
+.forth-highlight-wrapper .links-wrapper {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+/* Fifth styling */
+.fifth-highlight-wrapper {
+	height: 450px;
+	background-color: #175ca9;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-size: 150px auto;
+	text-align: center;
+	font-size: 15px !important;
+	background-image: url("../images/home/apple-blue-logo.png");
+}
+.links-wrapper p:after {
+	font-family: "FontAwesome";
+	font-weight: 900;
+	content: "\f105";
+	padding-left: 10px;
+}
+.links-wrapper p {
+	color: white;
+}
+
+/* sixth styling */
+.sixth-highlight-wrapper {
+	height: 450px;
+
+	background-color: #dbdbdb;
+	background-position: center;
+	background-repeat: no-repeat;
+	/* background-size: cover;
+	background-size: auto; */
+	text-align: center;
+	background-image: url("../images/home/actors.jpg");
+}
+.noShow {
+	display: none;
+}
+.the-banker {
+	margin-left: auto;
+	margin-right: auto;
+	content: url("../images/home/banker.png");
+
+	padding-top: 200px;
+}
+.play-now-icon p:after {
+	font-family: "FontAwesome";
+	font-weight: 900;
+	content: "\f144";
+	padding-left: 10px;
+}
+/* Seventh styling*/
+.seventh-highlight-wrapper {
+	height: 580px;
+	background-color: #fafafa;
+	background-position: center;
+	background-repeat: no-repeat;
+	/* background-size: cover; */
+	background-size: auto;
+	text-align: center;
+	background-image: url("../images/home/watch-series-5.jpg");
+}
+.seventh-info {
+	font-weight: 400;
+}
+.seventh-highlight-wrapper .links-wrapper {
+	font-size: larger;
+	font-weight: 500;
+}
+/* Eighth styling */
+
+.eighth-highlight-wrapper {
+	height: 580px;
+	/* background-color: black; */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	background-image: url("../images/home/spyder.jpg");
+}
+.eight-info {
+	margin: 0 auto;
+	width: 60%;
+	font-size: 16px;
+	padding: 0 50px;
+}
+.arcade-links {
+	font-size: 20px;
+	font-weight: 400;
+}
+/* Ninth styling */
+.ninth-highlight-wrapper {
+	height: 480px;
+	background-color: #fafafa;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+
+	text-align: center;
+	background-image: url("../images/home/apple-card-monthly.jpg");
+}
+.card-info {
+	margin: 0 auto;
+	width: 60%;
+	font-size: 14px;
+	padding: 0 50px;
+}
+.card-info-model {
+	margin: 0 auto;
+	width: 42%;
+}
+
+/* end of highlights */
+.footer-wrapper {
+	background-color: #f5f5f7;
+	color: #86868b;
+	font-size: 0.7em;
+}
+.footer-wrapper ul {
+	list-style: none;
+	padding-bottom: 10px;
+	padding-inline-start: 0px;
+}
+.footer-wrapper ul a {
+	color: #515154;
+	/* padding: 6px; */
+}
+.my-apple-wrapper {
+	padding-bottom: 15px;
+	margin-top: 10px;
+}
+.copyright {
+	margin-top: 15px;
+}
+.footer-country {
+	margin-top: 8px;
+}
+.flag-wrapper {
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 5px;
+}
+.footer-country-name {
+	display: inline-block;
+	vertical-align: middle;
+}
+.footer-links-terms ul {
+	display: flex;
+}
+.footer-links-terms ul li {
+	padding: 0 10px;
+	border-right: 1px solid #d2d2d7;
+}
+.footer-links-terms ul li:first-child {
+	padding-left: 0;
+}
+.footer-links-terms ul li:last-child {
+	border-right: 0;
+}
+.footer-links-terms ul li a {
+	padding: 6px;
+}
+
+.footer-links-wrapper h3 {
+	font-size: 12px;
+	font-weight: 600;
+	color: #1d1d1f;
+}
+.footer-wrapper ul li {
+	padding: 4px 0;
+}
+.upper-text-container {
+	border-bottom: 1px solid #d2d2d7;
+	padding: 17px 0 10px;
+	margin-bottom: 20px;
+}
+.upper-text-container a {
+	color: #515154;
+}
+
+/*Media Query*/
+/* Footer */
+@media (max-width: 768px) {
+	.footer-links-wrapper h3.change:after {
+		content: attr(data-content) '\f00d';
+	}
+
+	.footer-links-wrapper ul {
+		display: none;
+	}
+	.footer-links-wrapper h3 {
+		padding: 10px 0;
+		border-bottom: 1px solid #ccc;
+	}
+	.footer-links-wrapper h3:after {
+		font-family: "FontAwesome";
+		content: "\f067";
+		padding-left: 10px;
+		position: absolute;
+		right: 25px;
+	}
+}
+@media (min-width: 768px) {
+	/*Nav bar*/
+	.nav-item {
+		text-align: center !important;
+		padding: 0;
+		border-bottom: 0px;
+	}
+	/*Footer styling*/
+	.my-apple-wrapper {
+		border-bottom: 1px solid #d2d2d7;
+	}
+}
+@media (min-width: 992px) {
+	/*Footer styling*/
+	.copyright {
+		margin-top: 10px;
+	}
+	.footer-country {
+		margin-top: 10px;
+	}
+	.footer-links-terms {
+		margin-top: 10px;
+	}
+}
+/* Min width body */
+@media (min-width: 768px) {
+	.main-highlight-wrapper {
+		background-color: #fafafa;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		text-align: center;
+		background-image: url("../images/home/hero_iphone_13pro_largetall.jpg");
+	}
+	.main-highlight-wrapper {
+		padding-top: 60px;
+	}
+	.under_ipad-text {
+		padding-top: 297px;
+		font-size: 9px;
+		color: rgb(119, 114, 114);
+		font-weight: 500;
+	}
+	.under_ipad-text p {
+		display: inline;
+	}
+	.new-p {
+		display: block;
+	}
+	/* second macBook */
+	.second-highlight-wrapper {
+		height: 580px;
+		background-size: auto;
+		background-color: #fafafa;
+		background-position: center bottom;
+		background-repeat: no-repeat;
+
+		text-align: center;
+		background-image: url("../images/home/macbookair-new.jpg");
+	}
+	/* .fifth-highlight-wrapper {
+		max-width: 100%;
+	} */
+
+	.beige {
+		background-color: #ececec;
+	}
+	.forth-highlight-wrapper {
+		height: 580px;
+		background-size: auto;
+		background-color: #fafafa;
+
+		background-image: url("../images/home/iphone11-bg.jpg");
+	}
+	.forth-info {
+		margin: 0 auto;
+		width: 70%;
+		font-size: 12px;
+		padding: 0 10px;
+	}
+	.forth-highlight-wrapper .links-wrapper {
+		font-size: 14px;
+		font-weight: 500;
+	}
+	.fifth-highlight-wrapper {
+		/* height: 580px;
+		background-color: #175ca9;
+		background-position: center;
+		background-repeat: no-repeat; */
+
+		background-size: contain;
+		background-position: center bottom;
+		text-align: center;
+		background-image: url("../images/home/mac-studio-large.jpg");
+	}
+	.model h4 {
+		font-size: 30px;
+		padding-left: 100px;
+	}
+	.sixth-highlight-wrapper {
+		height: 580px;
+		background-size: auto;
+		background-position: center bottom;
+		background-image: url("../images/home/actors-lg.jpg");
+	}
+	.the-banker {
+		padding-top: 320px;
+	}
+	.seventh-highlight-wrapper {
+		background-size: auto;
+		height: 580px;
+		background-color: #fafafa;
+		background-position: bottom;
+		background-image: url("../images/home/watch-lg.jpg");
+	}
+	.eighth-highlight-wrapper {
+		height: 580px;
+		background-size: auto;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		text-align: center;
+		background-image: url("../images/home/spyder-lg.jpg");
+	}
+	.arcade-links li {
+		display: inline;
+		font-size: 14px;
+	}
+	.arcade-links a {
+		display: inline;
+		font-size: 14px;
+	}
+	.ninth-highlight-wrapper {
+		height: 580px;
+		background-size: auto;
+
+		background-image: url("../images/home/apple-card-monthly-lg.jpg");
+	}
+	.card-info-model h3 {
+		font-weight: bold;
+	}
+	/* .card-info p {
+		padding: 0 30px;
+	} */
+}
